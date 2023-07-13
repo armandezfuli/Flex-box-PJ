@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+  font-family: var(--font-main-family);
+  font-size: var(--size-root);
+  background: var(--color-bg-main);
+}
+
+h1 {
+  font-size: 3rem;
+}
