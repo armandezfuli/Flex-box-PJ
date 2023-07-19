@@ -1,13 +1,21 @@
 :root {
-  /* colors --->>  */
-  --colors-bg-main: #ffffff;
+  /* Colors */
+  --color-white: #ffffff;
+  --color-primary-1: #1d3557;
+  --color-primary-2: #457b9d;
+  --color-primary-3: #e63946;
+  --color-primary-4: #f1faee;
+  --color-primary-5: #a8dadc;
 
-  /* colors --->> */
-  /* sizes --->>  */
+
+
+  /* End of Colors */
+  /* Sizes */
   --size-root: 62.5%;
 
-  /* sizes --->>  */
-  /* fonts --->> */
+  /* End of Sizes */
+  /* Fonts */
   --font-main-family: Vazirmatn, sans-serif;
-  /* fonts --->> */
+
+  /* End of Fonts */
 }

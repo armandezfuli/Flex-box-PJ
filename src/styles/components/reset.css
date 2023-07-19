@@ -127,3 +127,23 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* NEW ------------------------------->> */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--size-root);
+}
+
+body {
+  direction: rtl;
+  font-family: var(--font-main-family);
+  background: var(--color-primary-4);
+  height: 2000px;
+}
+
