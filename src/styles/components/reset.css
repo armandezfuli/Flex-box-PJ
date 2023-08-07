@@ -143,9 +143,7 @@ html {
 body {
   direction: rtl;
   font-family: var(--font-main-family);
-  /* background: var(--color-white); */
-  background: var(--color-primary-4);
-
-  height: 2000px;
+  background: var(--color-white);
+  /* background: var(--color-primary-4); */
 }
 

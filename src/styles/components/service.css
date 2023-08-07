@@ -1,0 +1,98 @@
+.services {
+  width: 100%;
+  margin: 5rem 0;
+  padding: 6rem 0;
+  /* box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.1); */
+  background: var(--color-primary-4);
+  /* background: var(--color-white); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services .services__title {
+  width: 100%;
+  padding-right: 4rem;
+  margin-bottom: 4rem;
+}
+
+.services .services__title h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.services .services__title h1 span {
+  color: var(--color-primary-3);
+}
+
+.services .service {
+  width: 90%;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+  background: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.7rem;
+  margin: 2rem 0;
+}
+
+.services .service .service__icon {
+  display: inline-block;
+  background: var(--color-primary-3);
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: 0.7rem;
+}
+
+.services .service .service__icon i {
+  color: var(--color-white);
+  font-size: 4rem;
+}
+
+.services .service .service__content {
+}
+
+.services .service .service__content h2 {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+}
+
+.services .service .service__content p {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  font-weight: 300;
+  text-align: justify;
+  padding: 2rem 3rem;
+
+}
+
+@media screen and (min-width: 576px) {
+  .services {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .services .services__title {
+    order: -1;
+    flex-shrink: 0;
+  }
+  .services .service {
+    flex-basis: calc(50% - 2rem);
+    margin: auto;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  .services .service {
+    flex-basis: calc(33.3333% - 2rem);
+    margin: auto;
+    margin-top: 2rem;
+  }
+}
