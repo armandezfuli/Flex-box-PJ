@@ -17,7 +17,7 @@
 }
 
 .services .services__title h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 
@@ -72,10 +72,11 @@
 
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
   .services {
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 6rem 1rem;
   }
   .services .services__title {
     order: -1;
@@ -85,6 +86,7 @@
     flex-basis: calc(50% - 2rem);
     margin: auto;
     margin-top: 2rem;
+    margin-bottom: 0rem;
   }
 }
 
