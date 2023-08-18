@@ -1,5 +1,7 @@
 .contact {
   width: 100%;
+  margin: 0rem 0;
+  width: 100%;
   background: var(--color-primary-3);
 }
 
@@ -42,6 +44,7 @@
   font-weight: 600;
   margin: 0 1rem;
   font-size: 1.4rem;
+  margin-right: auto;
 }
 
 .contact .contact__form .form .btn-submit {
@@ -52,11 +55,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .contact {
-    width: 90%;
-    margin: auto;
-    border-radius: 1.5rem;
-  }
   .contact .contact__form {
     display: flex;
     flex-direction: row;
