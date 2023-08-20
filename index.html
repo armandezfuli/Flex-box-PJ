@@ -13,11 +13,55 @@
   </head>
   <body>
     <!-- Header -->
-    <!-- Navbar -->
-    <!-- End of Navbar -->
-    <!-- Hero -->
     <section class="hero">
-      <div class="hero__banner">
+      <!-- Navbar -->
+      <section class="nav">
+        <nav class="nav__container">
+          <h3>Arman_Dezfuli</h3>
+          <button type="button" class="nav__btn">
+            <i class="bi bi-list-nested"></i>
+          </button>
+        </nav>
+
+        <ul class="nav__navigation">
+          <li class="navigation__list">
+            <a href="#home">خانه</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#about">درباره ما</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#services">خدمات</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#articles">مقالات</a>
+          </li>
+          <li class="navigation__list">
+            <a href="#gallery">گالری</a>
+          </li>
+        </ul>
+
+        <ul class="nav__social">
+          <li>
+            <a href="#">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="bi bi-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!-- End of Navbar -->
+      <!-- Hero -->
+      <div class="hero__banner" id="home">
         <h1 class="banner__title">
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
         </h1>
@@ -30,11 +74,11 @@
         </p>
         <button class="btn banner__btn">کلیک کنید</button>
       </div>
+      <!-- End of  Hero -->
     </section>
-    <!-- End of  Hero -->
     <!-- End of Header -->
     <!-- About -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="about__title">
         <h1>درباره <span>ما</span></h1>
       </div>
@@ -56,7 +100,7 @@
     </section>
     <!-- End About -->
     <!-- Services -->
-    <section class="services">
+    <section class="services" id="services">
       <div class="services__title">
         <h1>خدما<span>ت</span></h1>
       </div>
@@ -107,7 +151,7 @@
     </section>
     <!-- End Services -->
     <!-- Article -->
-    <section class="articles">
+    <section class="articles" id="articles">
       <div class="articles__title">
         <h1>مقاله <span>ها</span></h1>
       </div>
@@ -184,8 +228,7 @@
     </section>
     <!-- End Article -->
     <!-- Gallery -->
-    <section class="gallery">
-
+    <section class="gallery" id="gallery">
       <article class="gallery__img-container">
         <img src="/public/images/gallery/gallery-1.jpg" alt="" />
         <a href="#">
@@ -223,7 +266,6 @@
           <i class="bi bi-search"></i>
         </a>
       </article>
-      
     </section>
     <!-- End Gallery -->
     <!-- contact Us -->
@@ -245,11 +287,21 @@
       <footer class="footer__container">
         <nav class="footer__nav">
           <ul>
-            <li><a href="#">صفحه نخست</a></li>
-            <li><a href="#">درباره ما</a></li>
-            <li><a href="#">خدمات</a></li>
-            <li><a href="#">مقالات</a></li>
-            <li><a href="#">گالری</a></li>
+            <li class="navigation__list">
+              <a href="#home">خانه</a>
+            </li>
+            <li class="navigation__list">
+              <a href="#about">درباره ما</a>
+            </li>
+            <li class="navigation__list">
+              <a href="#services">خدمات</a>
+            </li>
+            <li class="navigation__list">
+              <a href="#articles">مقالات</a>
+            </li>
+            <li class="navigation__list">
+              <a href="#gallery">گالری</a>
+            </li>
           </ul>
         </nav>
         <div class="footer__social">
@@ -258,8 +310,9 @@
           <a href="#"><i class="bi bi-twitter"></i></a>
         </div>
         <div class="footer__copy-write">
-          <p>&#169;
-            کلیه ی حقوق این سایت نزد آرمان دزفولی محفوظ است و هر گونه کپی برداری از مطالب پیگرد قانونی دارد
+          <p>
+            &#169; کلیه ی حقوق این سایت نزد آرمان دزفولی محفوظ است و هر گونه کپی برداری از مطالب
+            پیگرد قانونی دارد
           </p>
         </div>
       </footer>

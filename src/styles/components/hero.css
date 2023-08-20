@@ -58,3 +58,130 @@
     color: var(--color-primary-4);
   }
 }
+/* ////////////////////////////////////////////////////////////// */
+
+.nav {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  background: var(--color-white);
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.nav__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.nav__container h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--color-primary-1);
+}
+
+.nav__container button {
+  background: transparent;
+  box-shadow: none;
+}
+
+.nav__container button i {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+/* ////////////////////////////////////////////////////////////// */
+.nav__navigation {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav__navigation .navigation__list {
+  padding: 1rem 2rem;
+}
+
+.nav__navigation .navigation__list a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: var(--color-primary-1);
+}
+
+.nav__navigation .navigation__list:hover {
+  background: var(--color-primary-3);
+}
+
+.nav__navigation .navigation__list:hover a {
+  background: var(--color-primary-3);
+  color: var(--color-white);
+}
+
+.navigation-show {
+  padding: 1rem 0;
+  height: calc(180px + 2rem);
+}
+/* ////////////////////////////////////////////////////////////// */
+.nav__social {
+  display: none;
+}
+
+.nav__social li {
+}
+
+.nav__social li a {
+}
+
+.nav__social li a i {
+}
+/* ////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 992px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  .nav__container {
+    width: auto;
+    padding: 0;
+  }
+  .nav__container button {
+    display: none;
+  }
+  .nav__navigation {
+    width: auto;
+    padding: 1rem 0;
+    height: auto;
+    display: flex;
+  }
+  .nav__navigation .navigation__list {
+    padding: 0;
+    margin: 0 1rem;
+  }
+  .nav__navigation .navigation__list:hover {
+    background: transparent;
+  }
+
+  .nav__navigation .navigation__list:hover a {
+    background: transparent;
+    color: var(--color-primary-3);
+  }
+  .nav__social {
+    display: flex;
+  }
+  .nav__social li a {
+    margin: 0 1rem;
+  }
+
+  .nav__social li a i {
+    font-size: 2rem;
+    color: var(--color-primary-1);
+  }
+  .nav__social li:hover a i  {
+    color: var(--color-primary-3);
+  }
+}
